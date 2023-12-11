@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <title>YAMAHA MIO AEROX</title>
+</head>
+<body>
+    <div class="container" id="motor">
+        <nav>
+            <img src="ahamay.png" class="logo">
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="btn">BUY NOW!</a>
+        </nav>
+        <div class="content">
+            <h2>THE YAMAHA</h2>
+            <h1>MIO AEROX 155</h1>
+            <p>This machine was designed with the intention of combining excellent 
+                design and racing technology. As a result, the fastest AT with 
+                features that complement performance and function was created.
+                A liquid-cooled, 4-stroke SOHC, 155cc, single-cylinder, 4-valve, 
+                fuel-injected engine with CVT is adopted. By the continuous development
+                 of technology, the upgraded engine makes use of a new cylinder head 
+                 and a compact combustion chamber to achieve a higher compression 
+                 ratio. The intake valve is wider ensuring strong intake efficiency. 
+                 All these advancements enable to give more exhilarating power 
+                 improving the reliability, smooth acceleration and brings more 
+                 competence to your ride.</p>
+                 <h3>Choose your color!</h3>
+                 <div class="color-select">
+                    <div id="red"></div>
+                    <div id="green"></div>
+                    <div id="black"></div>
+                 </div>
+        </div>
+
+    </div>
+<script>
+    let redBtn = document.getElementById("red");
+    let greenBtn = document.getElementById("green");
+    let blackBtn = document.getElementById("black");
+    let motor = document.getElementById("motor");
+
+    redBtn.onclick = function(){
+        motor.style.backgroundImage = "url(blue.png)"
+    }
+    greenBtn.onclick = function(){
+        motor.style.backgroundImage = "url(white.png)"
+    }
+    blackBtn.onclick = function(){
+        motor.style.backgroundImage = "url(black.png)"
+    }
+</script>
+<footer>
+    Gabuni,Gabriel Richard R.
+</footer>
+
+</body>
+</html>
